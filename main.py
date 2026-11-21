@@ -9,7 +9,16 @@ writes exactly the same bytes.
 import os
 
 CANDIDATES = [
-    # 1 - The night train. 275 characters.
+    # 1 - The ferry deck. 275 characters.
+    "You are asleep on the ferry deck.\n"
+    "Your grandfather wraps you in his oilskin.\n"
+    "Slap. A slow slap. Water on the hull.\n"
+    "The deck lifts. The deck settles.\n"
+    "The moon has drawn this tide\n"
+    "since long before there were harbours,\n"
+    "and draws it still, under you,\n"
+    "and it holds you till dawn.",
+    # 2 - The night train. 275 characters.
     "You are asleep on the night train.\n"
     "Your mother tucks her coat under your head.\n"
     "Click. A long pause. Click. The rails.\n"
@@ -18,15 +27,6 @@ CANDIDATES = [
     "through rock older than any road,\n"
     "and is cutting still, under you,\n"
     "and the night carries you home.",
-    # 2 - The ferry deck. 276 characters.
-    "You are asleep on the ferry deck.\n"
-    "Your grandfather wraps you in his oilskin.\n"
-    "Slap. A slow slap. Water on the hull.\n"
-    "The deck lifts. The deck settles.\n"
-    "The moon has drawn this tide\n"
-    "since long before there were harbours,\n"
-    "and draws it still, under you,\n"
-    "and it carries you to shore.",
     # 3 - The porch in rain. 275 characters.
     "You are asleep on the porch in the rain.\n"
     "Your mother lays a blanket over your knees.\n"

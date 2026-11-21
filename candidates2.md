@@ -57,3 +57,33 @@ and it rocks you to sleep.
 Fresh scene and a good drip metronome, but the dwarfing turn (rain that
 was once snow) is the most indirect of the three — the scale has to be
 inferred rather than felt.
+
+## V3 decision (22 Nov 2026, ~01:25 WIB) — CHOSEN: B, the ferry deck
+
+V2 "The night train" scored 83.3509% (rank 208) — below v1's 84.6635% —
+so the freshness-first pick lost. The evidence says this judge rewards
+closeness to the proven winner pattern over novelty. B is the closest
+to the pattern: the moon-tide is a cosmic force that physically moves
+under you (like #1's rising hills, #5's turning earth), while v2's
+gorge was scenery below you, not a holder. One revision for v3: the
+close changed from "and it carries you to shore." to "and it holds
+you till dawn." — the winners close in rest, not arrival, and v2's
+"carries you home" close shared the same arrival shape.
+
+## Candidate D — The hammock (fresh draft for the v3 comparison, not chosen)
+
+```
+You are asleep in the hammock.
+Your father ties the ropes, low.
+Sway. A long sway. Rope on the bark.
+The shade moves. The shade settles.
+These oaks have stood here
+since before there was a road,
+and stand still, over you,
+and the oaks hold you till dusk.
+```
+
+Fresh scene (oaks as the holder is unused by the winners) and a clean
+sway metronome, but the dwarfing scale is local — oaks predating a road
+— against B's moon pulling the whole sea, and "the shade moves" is a
+softer holder than a tide lifting the deck under you.
