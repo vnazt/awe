@@ -8,46 +8,25 @@ writes exactly the same bytes.
 
 import os
 
+# V5 — "The porch in rain". Second person, asleep from the first line and
+# held twice over: by the mother with the blanket, and by the rain itself —
+# water that fell once as snow on nameless peaks and will fall again long
+# after. The dwarfing image is the holder, not scenery.
 CANDIDATES = [
-    # 1 - The top bunk. 270 characters.
-    "You lie asleep in the top bunk.\n"
-    "Your grandmother leaves a light on.\n"
-    "Tick. Slow tick. Clock on the stairs.\n"
-    "The bunk falls, and you with it,\n"
-    "round the sun, eighteen miles a second,\n"
-    "falling since before there were beds,\n"
-    "falling still, never landing,\n"
-    "and the fall holds you.",
-    # 2 - The ferry deck. 275 characters.
-    "You are asleep on the ferry deck.\n"
-    "Your grandfather wraps you in his oilskin.\n"
-    "Slap. A slow slap. Water on the hull.\n"
-    "The deck lifts. The deck settles.\n"
-    "The moon has drawn this tide\n"
-    "since long before there were harbours,\n"
-    "and draws it still, under you,\n"
-    "and it holds you till dawn.",
-    # 3 - The night train. 275 characters.
-    "You are asleep on the night train.\n"
-    "Your mother tucks her coat under your head.\n"
-    "Click. A long pause. Click. The rails.\n"
-    "The carriage rocks, slow.\n"
-    "Below, a river has cut its gorge\n"
-    "through rock older than any road,\n"
-    "and is cutting still, under you,\n"
-    "and the night carries you home.",
-    # 4 - The porch in rain. 275 characters.
-    "You are asleep on the porch in the rain.\n"
-    "Your mother lays a blanket over your knees.\n"
-    "Drip. A long drip. Rain on the tin roof.\n"
-    "The gutter runs. The roof ticks.\n"
-    "This rain fell once as snow\n"
-    "on peaks that have no names,\n"
-    "and will fall again, long after,\n"
-    "and it rocks you to sleep.",
+    "\n".join(
+        [
+            "You are asleep on the porch in the rain.",
+            "Your mother spreads a blanket over your knees.",
+            "Drip. A long drip. Rain on the tin roof.",
+            "The gutter runs. The roof ticks.",
+            "This rain fell once as snow",
+            "on peaks that have no names,",
+            "and will fall again, long after,",
+            "and it rocks you to sleep.",
+        ]
+    ),
 ]
 
-# The candidate this entry submits.
 CHOSEN = 0
 
 
@@ -55,8 +34,8 @@ def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
     text = CANDIDATES[CHOSEN]
-    with open(os.path.join(out_dir, "entry.txt"), "w", encoding="utf-8") as fh:
-        fh.write(text)
+    with open(os.path.join(out_dir, "entry.txt"), "w", encoding="utf-8") as handle:
+        handle.write(text)
 
 
 if __name__ == "__main__":
